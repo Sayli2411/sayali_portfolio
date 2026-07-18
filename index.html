@@ -1,0 +1,846 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sayali Nandapurkar | Cloud Engineer Portfolio</title>
+
+    <!-- Tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Typed JS -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            scroll-behavior: smooth;
+        }
+
+        .gradient-text {
+            background: linear-gradient(90deg, #3b82f6, #06b6d4, #8b5cf6);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .floating {
+            animation: float 6s ease-in-out infinite;
+        }
+
+        @keyframes float {
+
+            0%,
+            100% {
+                transform: translateY(0px);
+            }
+
+            50% {
+                transform: translateY(-12px);
+            }
+        }
+
+        .glow {
+            box-shadow: 0 0 40px rgba(59, 130, 246, .45);
+        }
+
+        ::-webkit-scrollbar {
+            width: 10px;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: #2563eb;
+            border-radius: 10px;
+        }
+    </style>
+
+</head>
+
+<body class="bg-gradient-to-br from-gray-950 via-gray-900 to-black text-white overflow-x-hidden">
+
+<!-- ================= NAVBAR ================= -->
+
+<nav class="fixed top-0 w-full bg-black/40 backdrop-blur-lg border-b border-gray-800 z-50">
+
+    <div class="max-w-7xl mx-auto px-6 py-5 flex justify-between items-center">
+
+        <h1 class="text-2xl font-black">
+            Sayali<span class="text-blue-500">.</span>
+        </h1>
+
+        <div class="hidden md:flex gap-8 font-medium text-gray-300">
+
+            <a href="#about" class="hover:text-blue-400 transition">
+                About
+            </a>
+
+            <a href="#experience" class="hover:text-blue-400 transition">
+                Experience
+            </a>
+
+            <a href="#skills" class="hover:text-blue-400 transition">
+                Skills
+            </a>
+
+            <a href="#projects" class="hover:text-blue-400 transition">
+                Projects
+            </a>
+
+            <a href="#certifications" class="hover:text-blue-400 transition">
+                Certifications
+            </a>
+
+            <a href="#contact" class="hover:text-blue-400 transition">
+                Contact
+            </a>
+
+        </div>
+
+    </div>
+
+</nav>
+
+<!-- ================= HERO ================= -->
+
+<section class="min-h-screen flex items-center justify-center text-center px-6 relative">
+
+    <div
+        class="absolute inset-0 opacity-20 bg-[radial-gradient(circle_at_top,_#3b82f6,_transparent_60%)]">
+    </div>
+
+    <div class="relative z-10" data-aos="zoom-in">
+
+        <h1 class="text-5xl md:text-7xl font-black mb-6 floating">
+
+            Hi, I'm
+
+            <span class="gradient-text">
+                Sayali J. Nandapurkar
+            </span>
+
+        </h1>
+
+        <p class="text-2xl md:text-3xl font-semibold mb-8">
+
+            <span id="typed" class="text-blue-400"></span>
+
+        </p>
+
+        <p class="max-w-3xl mx-auto text-lg text-gray-400 leading-relaxed mb-10">
+
+            AWS Certified Cloud Computing student passionate about Cloud
+            Infrastructure, DevOps, Artificial Intelligence, Automation and
+            building scalable cloud-native solutions.
+
+        </p>
+
+        <div class="flex flex-wrap justify-center gap-6">
+
+            <a href="NandapurkarSayali.pdf"
+    target="_blank"
+    download
+    class="px-8 py-4 rounded-xl bg-blue-600 hover:bg-blue-700 font-bold glow">
+
+    Download Resume
+
+</a>
+
+            <a href="#projects"
+                class="px-8 py-4 rounded-xl border border-gray-700 hover:bg-gray-800">
+
+                View Projects
+
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= ABOUT ================= -->
+
+<section id="about" class="py-32 px-6 bg-gray-900">
+
+    <div class="max-w-6xl mx-auto" data-aos="fade-right">
+
+        <h2 class="text-4xl font-extrabold gradient-text mb-8">
+
+            About Me
+
+        </h2>
+
+        <p class="text-lg leading-9 text-gray-300">
+
+            I am a Computer Science and Engineering (Cloud Computing)
+            student at D. Y. Patil International University, Pune.
+            My interests lie in Cloud Computing, AWS, DevOps,
+            Artificial Intelligence and Automation.
+
+            I have hands-on experience working with AWS services
+            including Amazon S3, CloudWatch, IAM, SNS,
+            VPC Networking, Amazon Bedrock and RDS.
+
+            Through internships and personal projects,
+            I have designed secure cloud architectures,
+            automated cloud workflows,
+            implemented monitoring solutions,
+            and built AI-powered cloud applications
+            using Retrieval-Augmented Generation (RAG).
+
+            I enjoy solving real-world problems through scalable,
+            secure and modern cloud technologies while continuously
+            learning new tools in the cloud ecosystem.
+
+        </p>
+
+    </div>
+
+</section>
+<!-- ================= EXPERIENCE ================= -->
+
+<section id="experience" class="py-32 px-6">
+
+    <div class="max-w-6xl mx-auto" data-aos="fade-up">
+
+        <h2 class="text-4xl font-extrabold gradient-text mb-16">
+            Experience
+        </h2>
+
+        <div class="space-y-10">
+
+            <!-- Cloud Intern -->
+
+            <div class="bg-gray-800 rounded-2xl p-8 shadow-lg hover:scale-[1.02] transition">
+
+                <h3 class="text-2xl font-bold">
+                    Cloud Intern
+                </h3>
+
+                <p class="text-blue-400 mt-2">
+                    Elite Tech • May 2025 – Aug 2025
+                </p>
+
+                <ul class="list-disc ml-6 mt-5 text-gray-300 space-y-2">
+
+                    <li>Configured AWS S3 buckets for scalable cloud storage.</li>
+
+                    <li>Implemented CloudWatch monitoring and SNS notifications.</li>
+
+                    <li>Created IAM policies following least privilege security.</li>
+
+                    <li>Enabled S3 encryption for secure cloud storage.</li>
+
+                    <li>Worked on cloud monitoring and automation tasks.</li>
+
+                </ul>
+
+            </div>
+
+            <!-- Web Development -->
+
+            <div class="bg-gray-800 rounded-2xl p-8 shadow-lg hover:scale-[1.02] transition">
+
+                <h3 class="text-2xl font-bold">
+                    Web Development Intern
+                </h3>
+
+                <p class="text-blue-400 mt-2">
+                    GMMSPL, Pune • May 2024 – Aug 2024
+                </p>
+
+                <ul class="list-disc ml-6 mt-5 text-gray-300 space-y-2">
+
+                    <li>Developed responsive web interfaces using HTML, CSS and JavaScript.</li>
+
+                    <li>Integrated MySQL backend for data management.</li>
+
+                    <li>Improved application performance and user experience.</li>
+
+                    <li>Collaborated with the development team on frontend improvements.</li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= SKILLS ================= -->
+
+<section id="skills" class="py-32 px-6 bg-gray-900">
+
+    <div class="max-w-7xl mx-auto" data-aos="fade-up">
+
+        <h2 class="text-4xl font-extrabold gradient-text mb-16">
+
+            Skills
+
+        </h2>
+
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+
+            <div class="bg-gray-800 rounded-xl p-6 text-center hover:scale-110 transition floating">
+                AWS
+            </div>
+
+            <div class="bg-gray-800 rounded-xl p-6 text-center hover:scale-110 transition floating">
+                Microsoft Azure
+            </div>
+
+            <div class="bg-gray-800 rounded-xl p-6 text-center hover:scale-110 transition floating">
+                Python
+            </div>
+
+            <div class="bg-gray-800 rounded-xl p-6 text-center hover:scale-110 transition floating">
+                Linux
+            </div>
+
+            <div class="bg-gray-800 rounded-xl p-6 text-center hover:scale-110 transition floating">
+                Docker
+            </div>
+
+            <div class="bg-gray-800 rounded-xl p-6 text-center hover:scale-110 transition floating">
+                Kubernetes
+            </div>
+
+            <div class="bg-gray-800 rounded-xl p-6 text-center hover:scale-110 transition floating">
+                CI/CD
+            </div>
+
+            <div class="bg-gray-800 rounded-xl p-6 text-center hover:scale-110 transition floating">
+                Git & GitHub
+            </div>
+
+            <div class="bg-gray-800 rounded-xl p-6 text-center hover:scale-110 transition floating">
+                Amazon Bedrock
+            </div>
+
+            <div class="bg-gray-800 rounded-xl p-6 text-center hover:scale-110 transition floating">
+                CloudWatch
+            </div>
+
+            <div class="bg-gray-800 rounded-xl p-6 text-center hover:scale-110 transition floating">
+                MySQL
+            </div>
+
+            <div class="bg-gray-800 rounded-xl p-6 text-center hover:scale-110 transition floating">
+                PostgreSQL
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= PROJECTS ================= -->
+
+<section id="projects" class="py-32 px-6">
+
+    <div class="max-w-7xl mx-auto" data-aos="zoom-in">
+
+        <h2 class="text-4xl font-extrabold gradient-text mb-16">
+
+            Projects
+
+        </h2>
+
+        <div class="grid md:grid-cols-2 gap-10">
+
+            <!-- Project 1 -->
+
+            <div class="bg-gray-800 rounded-2xl p-10 hover:scale-105 transition shadow-lg">
+
+                <h3 class="text-2xl font-bold mb-4">
+
+                    Enterprise-Ready AWS Architecture
+
+                </h3>
+
+                <p class="text-gray-400 leading-8">
+
+                    Designed isolated VPCs with VPC Peering, S3 Gateway
+                    Endpoints, Flow Logs and CloudWatch monitoring to
+                    enable secure private communication without internet
+                    exposure while improving security and observability.
+
+                </p>
+
+            </div>
+
+            <!-- Project 2 -->
+
+            <div class="bg-gray-800 rounded-2xl p-10 hover:scale-105 transition shadow-lg">
+
+                <h3 class="text-2xl font-bold mb-4">
+
+                    AWS RDS MySQL
+
+                </h3>
+
+                <p class="text-gray-400 leading-8">
+
+                    Deployed MySQL RDS with secure endpoint configuration,
+                    automated backups, parameter groups, CloudWatch
+                    monitoring and remote access using MySQL Workbench.
+
+                </p>
+
+            </div>
+
+            <!-- Project 3 -->
+
+            <div class="bg-gray-800 rounded-2xl p-10 hover:scale-105 transition shadow-lg">
+
+                <h3 class="text-2xl font-bold mb-4">
+
+                    Amazon Bedrock RAG Chatbot
+
+                </h3>
+
+                <p class="text-gray-400 leading-8">
+
+                    Built a Retrieval-Augmented Generation chatbot using
+                    Amazon Bedrock, LangChain, FAISS and Streamlit for
+                    intelligent PDF-based document question answering.
+
+                </p>
+
+            </div>
+
+            <!-- Project 4 -->
+
+            <div class="bg-gray-800 rounded-2xl p-10 hover:scale-105 transition shadow-lg">
+
+                <h3 class="text-2xl font-bold mb-4">
+
+                    ChronoLog Compute
+
+                </h3>
+
+                <p class="text-gray-400 leading-8">
+
+                    Developed an AI-powered cloud log monitoring platform
+                    integrating AWS CloudWatch, NLP and Machine Learning
+                    for anomaly detection, predictive analysis and
+                    infrastructure visualization.
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- ================= EXPERIENCE ================= -->
+
+<section id="experience" class="py-32 px-6">
+
+    <div class="max-w-6xl mx-auto" data-aos="fade-up">
+
+        <h2 class="text-4xl font-extrabold gradient-text mb-16">
+            Experience
+        </h2>
+
+        <div class="space-y-10">
+
+            <!-- Cloud Intern -->
+
+            <div class="bg-gray-800 rounded-2xl p-8 shadow-lg hover:scale-[1.02] transition">
+
+                <h3 class="text-2xl font-bold">
+                    Cloud Intern
+                </h3>
+
+                <p class="text-blue-400 mt-2">
+                    Elite Tech • May 2025 – Aug 2025
+                </p>
+
+                <ul class="list-disc ml-6 mt-5 text-gray-300 space-y-2">
+
+                    <li>Configured AWS S3 buckets for scalable cloud storage.</li>
+
+                    <li>Implemented CloudWatch monitoring and SNS notifications.</li>
+
+                    <li>Created IAM policies following least privilege security.</li>
+
+                    <li>Enabled S3 encryption for secure cloud storage.</li>
+
+                    <li>Worked on cloud monitoring and automation tasks.</li>
+
+                </ul>
+
+            </div>
+
+            <!-- Web Development -->
+
+            <div class="bg-gray-800 rounded-2xl p-8 shadow-lg hover:scale-[1.02] transition">
+
+                <h3 class="text-2xl font-bold">
+                    Web Development Intern
+                </h3>
+
+                <p class="text-blue-400 mt-2">
+                    GMMSPL, Pune • May 2024 – Aug 2024
+                </p>
+
+                <ul class="list-disc ml-6 mt-5 text-gray-300 space-y-2">
+
+                    <li>Developed responsive web interfaces using HTML, CSS and JavaScript.</li>
+
+                    <li>Integrated MySQL backend for data management.</li>
+
+                    <li>Improved application performance and user experience.</li>
+
+                    <li>Collaborated with the development team on frontend improvements.</li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= SKILLS ================= -->
+
+<section id="skills" class="py-32 px-6 bg-gray-900">
+
+    <div class="max-w-7xl mx-auto" data-aos="fade-up">
+
+        <h2 class="text-4xl font-extrabold gradient-text mb-16">
+
+            Skills
+
+        </h2>
+
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+
+            <div class="bg-gray-800 rounded-xl p-6 text-center hover:scale-110 transition floating">
+                AWS
+            </div>
+
+            <div class="bg-gray-800 rounded-xl p-6 text-center hover:scale-110 transition floating">
+                Microsoft Azure
+            </div>
+
+            <div class="bg-gray-800 rounded-xl p-6 text-center hover:scale-110 transition floating">
+                Python
+            </div>
+
+            <div class="bg-gray-800 rounded-xl p-6 text-center hover:scale-110 transition floating">
+                Linux
+            </div>
+
+            <div class="bg-gray-800 rounded-xl p-6 text-center hover:scale-110 transition floating">
+                Docker
+            </div>
+
+            <div class="bg-gray-800 rounded-xl p-6 text-center hover:scale-110 transition floating">
+                Kubernetes
+            </div>
+
+            <div class="bg-gray-800 rounded-xl p-6 text-center hover:scale-110 transition floating">
+                CI/CD
+            </div>
+
+            <div class="bg-gray-800 rounded-xl p-6 text-center hover:scale-110 transition floating">
+                Git & GitHub
+            </div>
+
+            <div class="bg-gray-800 rounded-xl p-6 text-center hover:scale-110 transition floating">
+                Amazon Bedrock
+            </div>
+
+            <div class="bg-gray-800 rounded-xl p-6 text-center hover:scale-110 transition floating">
+                CloudWatch
+            </div>
+
+            <div class="bg-gray-800 rounded-xl p-6 text-center hover:scale-110 transition floating">
+                MySQL
+            </div>
+
+            <div class="bg-gray-800 rounded-xl p-6 text-center hover:scale-110 transition floating">
+                PostgreSQL
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= PROJECTS ================= -->
+
+<section id="projects" class="py-32 px-6">
+
+    <div class="max-w-7xl mx-auto" data-aos="zoom-in">
+
+        <h2 class="text-4xl font-extrabold gradient-text mb-16">
+
+            Projects
+
+        </h2>
+
+        <div class="grid md:grid-cols-2 gap-10">
+
+            <!-- Project 1 -->
+
+            <div class="bg-gray-800 rounded-2xl p-10 hover:scale-105 transition shadow-lg">
+
+                <h3 class="text-2xl font-bold mb-4">
+
+                    Enterprise-Ready AWS Architecture
+
+                </h3>
+
+                <p class="text-gray-400 leading-8">
+
+                    Designed isolated VPCs with VPC Peering, S3 Gateway
+                    Endpoints, Flow Logs and CloudWatch monitoring to
+                    enable secure private communication without internet
+                    exposure while improving security and observability.
+
+                </p>
+
+            </div>
+
+            <!-- Project 2 -->
+
+            <div class="bg-gray-800 rounded-2xl p-10 hover:scale-105 transition shadow-lg">
+
+                <h3 class="text-2xl font-bold mb-4">
+
+                    AWS RDS MySQL
+
+                </h3>
+
+                <p class="text-gray-400 leading-8">
+
+                    Deployed MySQL RDS with secure endpoint configuration,
+                    automated backups, parameter groups, CloudWatch
+                    monitoring and remote access using MySQL Workbench.
+
+                </p>
+
+            </div>
+
+            <!-- Project 3 -->
+
+            <div class="bg-gray-800 rounded-2xl p-10 hover:scale-105 transition shadow-lg">
+
+                <h3 class="text-2xl font-bold mb-4">
+
+                    Amazon Bedrock RAG Chatbot
+
+                </h3>
+
+                <p class="text-gray-400 leading-8">
+
+                    Built a Retrieval-Augmented Generation chatbot using
+                    Amazon Bedrock, LangChain, FAISS and Streamlit for
+                    intelligent PDF-based document question answering.
+
+                </p>
+
+            </div>
+
+            <!-- Project 4 -->
+
+            <div class="bg-gray-800 rounded-2xl p-10 hover:scale-105 transition shadow-lg">
+
+                <h3 class="text-2xl font-bold mb-4">
+
+                    ChronoLog Compute
+
+                </h3>
+
+                <p class="text-gray-400 leading-8">
+
+                    Developed an AI-powered cloud log monitoring platform
+                    integrating AWS CloudWatch, NLP and Machine Learning
+                    for anomaly detection, predictive analysis and
+                    infrastructure visualization.
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- ================= CERTIFICATIONS ================= -->
+
+<section id="certifications" class="py-32 px-6 bg-gray-900">
+
+    <div class="max-w-6xl mx-auto" data-aos="fade-up">
+
+        <h2 class="text-4xl font-extrabold gradient-text mb-16">
+
+            Certifications
+
+        </h2>
+
+        <div class="grid md:grid-cols-2 gap-8">
+
+            <div class="bg-gray-800 p-8 rounded-2xl shadow-lg hover:scale-105 transition">
+                🏅 AWS Certified Cloud Practitioner (CLF-C02)
+            </div>
+
+            <div class="bg-gray-800 p-8 rounded-2xl shadow-lg hover:scale-105 transition">
+                ☁ Microsoft Azure Fundamentals (AZ-900)
+            </div>
+
+            <div class="bg-gray-800 p-8 rounded-2xl shadow-lg hover:scale-105 transition">
+                🚀 AWS re/Start Graduate
+            </div>
+
+            <div class="bg-gray-800 p-8 rounded-2xl shadow-lg hover:scale-105 transition">
+                🤖 AWS Generative AI & AI Agents with Amazon Bedrock
+            </div>
+
+            <div class="bg-gray-800 p-8 rounded-2xl shadow-lg hover:scale-105 transition">
+                💾 SQL Certification (HackerRank & Udemy)
+            </div>
+
+            <div class="bg-gray-800 p-8 rounded-2xl shadow-lg hover:scale-105 transition">
+                🎓 NPTEL – Developing Soft Skills & Personality
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= CONTACT ================= -->
+
+<section id="contact" class="py-32 px-6">
+
+    <div class="max-w-4xl mx-auto text-center" data-aos="zoom-in">
+
+        <h2 class="text-4xl font-extrabold gradient-text mb-8">
+
+            Contact Me
+
+        </h2>
+
+        <p class="text-lg text-gray-400 mb-10">
+
+            I'm always open to internships, full-time opportunities,
+            cloud engineering roles, collaborations, and exciting projects.
+
+        </p>
+
+        <div class="space-y-5 text-lg">
+
+            <p>
+
+                📧
+
+                <a href="mailto:nandapurkarsayli24@gmail.com"
+                    class="hover:text-cyan-400 transition">
+
+                    nandapurkarsayli24@gmail.com
+
+                </a>
+
+            </p>
+
+            <p>
+
+                📱 +91 7020210428
+
+            </p>
+
+            <p>
+
+                💼
+
+                <a href="https://linkedin.com/in/sayali-n"
+                    target="_blank"
+                    class="hover:text-cyan-400">
+
+                    linkedin.com/in/sayali-n
+
+                </a>
+
+            </p>
+
+            <p>
+
+                📍 Pune, Maharashtra, India
+
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= FOOTER ================= -->
+
+<footer class="border-t border-gray-800 py-8 text-center text-gray-500">
+
+    © 2026 Sayali J. Nandapurkar • Built with HTML, Tailwind CSS & JavaScript
+
+</footer>
+
+<!-- ================= SCRIPTS ================= -->
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<script>
+
+AOS.init({
+    once: true,
+    duration: 1000,
+    easing: 'ease-out-cubic'
+});
+
+new Typed('#typed', {
+
+    strings: [
+
+        'Cloud Engineer',
+
+        'AWS Certified',
+
+        'DevOps Enthusiast',
+
+        'Cloud Computing Student'
+
+    ],
+
+    typeSpeed: 60,
+
+    backSpeed: 40,
+
+    loop: true
+
+});
+
+</script>
+
+</body>
+
+</html>
